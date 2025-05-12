@@ -5,10 +5,10 @@ export default function Home() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
-    const handleSubmit = (e: React.FormEvent) => {
-        e.preventDefault();
+    const handleSubmit = (event: React.FormEvent) => {
+        event.preventDefault();
         // Handle form submission
-        console.log('Email:', email, 'Password:', password);
+        fetch
     };
 
     return (
